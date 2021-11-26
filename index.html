@@ -30,7 +30,6 @@
     <script>
         function init() {
             if (window.localStorage.getItem('name') == null) {
-                //nie ma imienia zapisanego w localstorage
                 let name = window.prompt("Podaj swoje imię: ");
                 window.localStorage.setItem('name', name);
             }
